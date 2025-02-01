@@ -17,7 +17,7 @@ export class GameOverScene extends Phaser.Scene {
         this.add.text((screenCenterX + 80), (height/2), score, { font: '70px Arial', fill: '#ffffff' }).setOrigin(.5);
 
         setTimeout(() => {
-            this.scene.start('MenuScene');
+            location.reload();
         }, 3000);
     }
 } 

@@ -1,4 +1,4 @@
-let mContext, width, height, sheeps = [], amount = 2, destroySound, scoreText, scoreTimer, scoreCounter = 0, time = 60; 
+let mContext, width, height, sheeps = [], amount = 2, destroySound, scoreText, scoreTimer, scoreCounter = 0, time = 30; 
 
 export class MainScene extends Phaser.Scene {
     constructor(){
