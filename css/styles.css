@@ -21,3 +21,33 @@ canvas {
     display: flex;
     align-items: center;
 }
+
+@media (min-width: 540px) {
+    body {
+        padding: 0 10%;
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        padding: 0 20%;
+    }
+}
+
+@media (min-width: 1050px) {
+    body {
+        padding: 0 37%;
+    }
+}
+
+@media (max-height: 600px) and (max-width: 540px) {
+    body {
+        padding: 0 20%;
+    }
+}
+
+@media (max-height: 350px) and (max-width: 540px) {
+    body {
+        padding: 0 30%;
+    }
+}
