@@ -18,6 +18,6 @@ export class GameOverScene extends Phaser.Scene {
 
         setTimeout(() => {
             location.reload();
-        }, 3000);
+        }, 5000);
     }
 } 
