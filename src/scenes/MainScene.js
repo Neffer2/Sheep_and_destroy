@@ -42,6 +42,10 @@ export class MainScene extends Phaser.Scene {
             sheeps.push(sheep);
         }
 
+        if (amount > 2){
+            this.cameras.main.shake(150, 0.02);
+        }
+
         sheeps.forEach(sheep => {
             sheep.on('pointerdown', function(){
                 mContext.deleteSheep(sheep);
