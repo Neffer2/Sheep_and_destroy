@@ -2,6 +2,7 @@ import { Boot } from './scenes/Boot.js';
 import { PreloadScene } from './scenes/PreloadScene.js';
 import { MenuScene } from './scenes/MenuScene.js';
 import { MainScene } from './scenes/MainScene.js';
+import { GameOverScene } from './scenes/GameOverScene.js';
 
 // Configuracion general
 const config = {
@@ -11,7 +12,7 @@ const config = {
     height: 1280,
     width: 720,
     backgroundColor: '#0000',
-    scene: [Boot, PreloadScene, MainScene, MenuScene],
+    scene: [Boot, PreloadScene, MenuScene, MainScene, GameOverScene],
     scale: {
         mode: Phaser.Scale.FIT
     },
