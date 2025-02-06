@@ -24,8 +24,8 @@ export class MainScene extends Phaser.Scene {
         this.add.image(0, 0, 'background').setScale(0.8).setOrigin(0, 0);        
         destroySound = this.sound.add('sound-hit');
         let miniSheep = this.add.image(20, 20, 'sheep').setScale(0.5).setOrigin(0, 0);
-        scoreText = this.add.text(miniSheep.x + 90, 28, scoreCounter, { font: '50px Arial', fill: '#ffffff' });
-        scoreTimer = this.add.text(width - 100, 20, ":"+time, { font: '50px Arial', fill: '#ffffff' });
+        scoreText = this.add.text(miniSheep.x + 90, 28, scoreCounter, { font: '50px font1', fill: '#ffffff' });
+        scoreTimer = this.add.text(width - 100, 20, ":"+time, { font: '50px font1', fill: '#ffffff' });
     }
 
     getRandomInt(min, max) {
