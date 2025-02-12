@@ -12,7 +12,7 @@ export class PreloadScene extends Phaser.Scene {
         this.load.image('play-btn', 'buttons/play_button.png');
 
         // Sounds
-        // this.load.audio('sound-back', 'music/hackbeat.mp3');
+        this.load.audio('sound-back', 'music/hackbeat.mp3');
         this.load.audio('sound-hit', 'music/sheep-hit.wav');
     }    
  

@@ -10,7 +10,7 @@ export class MenuScene extends Phaser.Scene {
     }    
  
     create(){
-        // this.playMusic();
+        this.playMusic();
         width = this.game.config.width;
         height = this.game.config.height;
         this.add.image(0, 0, 'background').setScale(0.8).setOrigin(0, 0);
@@ -31,6 +31,7 @@ export class MenuScene extends Phaser.Scene {
 
     playMusic(){
         let backgroundMusic = this.sound.add('sound-back', { loop: true });
+        backgroundMusic.volume = 0.4;
         backgroundMusic.play();
     }
 }
